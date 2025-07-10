@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const adminAuth = require("../middleware/auth");
+const adminAuth = require("../middleware/auth.js");
 const { poolPromise, sql } = require("../db.js");
 
 // --------------- GET ------------------ //
