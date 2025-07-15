@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/353b5f65-e5bb-47e0-80f0-90fca66956f4/resourceGroups/rgChurchAttendance/providers/Microsoft.Web/sites/cbm-songlibrary-API",
+    "appService.deploySubpath": "api"
+}
